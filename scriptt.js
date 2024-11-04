@@ -64,7 +64,7 @@ const resetgame=()=>{
 
 
   const showwinner=(winner)=>{
-  msg.innerText=`Congratulations!!!! Winner is ${winner}`;
+  msg.innerText=`Congratulations!!!, Winner is ${winner}`;
   msgcontainer.classList.remove("hide");
   disabledbutton();
 
@@ -94,5 +94,3 @@ const checkwinner=()=>{
 
 newg.addEventListener("click",resetgame);
 resbtn.addEventListener("click",resetgame);
-
-
